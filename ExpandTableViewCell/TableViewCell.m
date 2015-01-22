@@ -14,7 +14,7 @@
 
     TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TableViewCell"];
     cell.nameLabel.text = name;
-    cell.IntroductionLabel.text = @"春暖花开，冷暖自知";
+    cell.IntroductionLabel.text = @"春暖花开，冷暖自知xxxxxxxxx";
     NSString *photoName = [NSString stringWithFormat:@"%d.png", index];
     cell.Headerphoto.image = [UIImage imageNamed:photoName];
     return cell;

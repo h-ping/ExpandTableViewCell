@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -98,11 +99,6 @@
                                                     <exclude reference="H69-wz-UHT"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="oPu-xs-tcy"/>
-                                                    <exclude reference="pyR-fF-c9I"/>
-                                                    <exclude reference="ajF-We-GBB"/>
-                                                    <exclude reference="asF-en-i8n"/>
-                                                    <exclude reference="hYp-AE-I2j"/>
                                                     <exclude reference="V54-DR-fWZ"/>
                                                     <exclude reference="V8r-TZ-uKJ"/>
                                                     <exclude reference="YBA-9t-plv"/>
@@ -110,6 +106,11 @@
                                                     <exclude reference="QuY-2S-pLY"/>
                                                     <exclude reference="TZe-9T-7mX"/>
                                                     <exclude reference="cGu-ee-xcy"/>
+                                                    <exclude reference="oPu-xs-tcy"/>
+                                                    <exclude reference="pyR-fF-c9I"/>
+                                                    <exclude reference="ajF-We-GBB"/>
+                                                    <exclude reference="asF-en-i8n"/>
+                                                    <exclude reference="hYp-AE-I2j"/>
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
@@ -120,11 +121,6 @@
                                                     <include reference="H69-wz-UHT"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="oPu-xs-tcy"/>
-                                                    <include reference="pyR-fF-c9I"/>
-                                                    <exclude reference="ajF-We-GBB"/>
-                                                    <include reference="asF-en-i8n"/>
-                                                    <include reference="hYp-AE-I2j"/>
                                                     <include reference="V54-DR-fWZ"/>
                                                     <include reference="V8r-TZ-uKJ"/>
                                                     <include reference="YBA-9t-plv"/>
@@ -132,6 +128,11 @@
                                                     <exclude reference="QuY-2S-pLY"/>
                                                     <include reference="TZe-9T-7mX"/>
                                                     <exclude reference="cGu-ee-xcy"/>
+                                                    <include reference="oPu-xs-tcy"/>
+                                                    <include reference="pyR-fF-c9I"/>
+                                                    <exclude reference="ajF-We-GBB"/>
+                                                    <include reference="asF-en-i8n"/>
+                                                    <include reference="hYp-AE-I2j"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -180,14 +181,14 @@
                                                     </state>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="hsz-De-JAH"/>
                                                             <exclude reference="5r7-hq-TXb"/>
+                                                            <exclude reference="hsz-De-JAH"/>
                                                         </mask>
                                                     </variation>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <mask key="constraints">
-                                                            <include reference="hsz-De-JAH"/>
                                                             <exclude reference="5r7-hq-TXb"/>
+                                                            <include reference="hsz-De-JAH"/>
                                                         </mask>
                                                     </variation>
                                                 </button>
@@ -202,14 +203,14 @@
                                                     </state>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="nx8-TC-39E"/>
                                                             <exclude reference="WdX-YS-3dL"/>
+                                                            <exclude reference="nx8-TC-39E"/>
                                                         </mask>
                                                     </variation>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <mask key="constraints">
-                                                            <include reference="nx8-TC-39E"/>
                                                             <exclude reference="WdX-YS-3dL"/>
+                                                            <include reference="nx8-TC-39E"/>
                                                         </mask>
                                                     </variation>
                                                 </button>
@@ -281,11 +282,6 @@
                                                     <exclude reference="7qX-W6-dj6"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="E8h-th-mYD"/>
-                                                    <exclude reference="Mcc-ty-1U4"/>
-                                                    <exclude reference="i5W-Mp-ENy"/>
-                                                    <exclude reference="BeG-c5-S4W"/>
-                                                    <exclude reference="V9P-wq-8Ax"/>
                                                     <exclude reference="ULY-k0-UkW"/>
                                                     <exclude reference="VzN-rM-84W"/>
                                                     <exclude reference="kSC-3U-8QC"/>
@@ -296,6 +292,11 @@
                                                     <exclude reference="X6T-hM-8iz"/>
                                                     <exclude reference="Ydl-c5-Pxp"/>
                                                     <exclude reference="tVE-Fv-5gC"/>
+                                                    <exclude reference="BeG-c5-S4W"/>
+                                                    <exclude reference="V9P-wq-8Ax"/>
+                                                    <exclude reference="E8h-th-mYD"/>
+                                                    <exclude reference="Mcc-ty-1U4"/>
+                                                    <exclude reference="i5W-Mp-ENy"/>
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
@@ -307,11 +308,6 @@
                                                     <include reference="7qX-W6-dj6"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="E8h-th-mYD"/>
-                                                    <include reference="Mcc-ty-1U4"/>
-                                                    <include reference="i5W-Mp-ENy"/>
-                                                    <include reference="BeG-c5-S4W"/>
-                                                    <include reference="V9P-wq-8Ax"/>
                                                     <include reference="ULY-k0-UkW"/>
                                                     <include reference="VzN-rM-84W"/>
                                                     <include reference="kSC-3U-8QC"/>
@@ -322,6 +318,11 @@
                                                     <include reference="X6T-hM-8iz"/>
                                                     <include reference="Ydl-c5-Pxp"/>
                                                     <include reference="tVE-Fv-5gC"/>
+                                                    <include reference="BeG-c5-S4W"/>
+                                                    <include reference="V9P-wq-8Ax"/>
+                                                    <include reference="E8h-th-mYD"/>
+                                                    <include reference="Mcc-ty-1U4"/>
+                                                    <include reference="i5W-Mp-ENy"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
